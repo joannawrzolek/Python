@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: windows-1250 -*-
+s = 'Wojski, chlubnie skoñczywszy ³owy, wraca z boru, A Telimena w g³êbi samotnego dworu Zaczyna polowanie. Wprawdzie nieruchoma Siedzi z za³o¿onemi na piersiach rêkoma, Lecz myœl¹ goni Ÿwierzów dwóch; szuka sposobu, Jak by razem obsaczyæ i u³owiæ obu: Hrabiê i Tadeusza. Hrabia, panicz m³ody, Wielkiego domu dziedzic, powabnej urody; Ju¿ trochê zakochany! Có¿? mo¿e siê zmieniæ! Potem, czy szczerze kocha? czy siê zechce ¿eniæ? Z kobiet¹ kilku laty starsz¹! niebogat¹! Czy mu krewni pozwol¹? co œwiat powie na to?'
+inp = input()
+
+if (inp.lower() in s.lower()):
+	print('Wyra¿enie "', inp, '" wystepuje w przechowywanym tekœcie')
+else:
+	print('Wyra¿enie "', inp, '" nie wystepuje w przechowywanym tekœcie')
